@@ -1,0 +1,64 @@
+.associative-section {
+    padding: 100px 40px;
+    background-color: #FFF9F1;
+    text-align: center;
+}
+
+.associative-title {
+    font-size: 2.3rem;
+    color: black;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.associative-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* Style de chaque carte */
+.asso-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: 420px;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid #D4A373;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.asso-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.asso-card h3 {
+    font-size: 1.3rem;
+    color: #3b2f2f;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.asso-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.asso-images img {
+    width: 160px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.asso-card p {
+    color: #333;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}

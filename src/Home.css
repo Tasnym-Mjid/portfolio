@@ -1,0 +1,119 @@
+.home-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* beige clair */
+    text-align: center;
+    padding: 0 200px;
+    background-color: #efe2d0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.3)),
+        url("./assets/portfolio-bg.jpg") center/cover no-repeat;
+}
+
+.home-title-container {
+    display: flex;
+    align-items: center;
+    /* centre verticalement le texte et la photo */
+    gap: 110px;
+    /* espace entre le nom et la photo */
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.home-title {
+    font-size: 5rem;
+    color: #333333;
+}
+
+.home-photo-inline {
+    width: 150px;
+    /* taille de la photo */
+    height: 400px;
+    /* cercle */
+    object-fit: cover;
+}
+
+.home-subtitle {
+    font-size: 1.5rem;
+    color: #555555;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-primary {
+    background-color: #D4A373;
+    border: 2px solid #D4A373;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #6b7280;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #D4A373;
+    border: 2px solid #D4A373;
+    color: whitesmoke;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #6b7280;
+    color: white;
+}
+
+.home-photo-inline {
+    width: 380px;
+    height: 390px;
+    border-radius: 30%;
+    border: 2px solid rgb(228, 221, 221);
+    object-fit: cover;
+}
+
+.btn-tertiary {
+    padding: 10px 20px;
+    background: #D4A373;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+    margin-left: 10px;
+}
+
+.btn-tertiary:hover {
+    background: #6b7280;
+    color: white;
+}
+
+.cv-button {
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid #D4A373;
+    gap: 8px;
+}
+
+.cv-icon {
+    font-size: 18px;
+}

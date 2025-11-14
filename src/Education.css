@@ -1,0 +1,83 @@
+.education-section {
+    background-color: white;
+    padding: 50px 10%;
+    color: #333;
+    text-align: center;
+    background: url("./assets/Education-bg.jpg") center/cover no-repeat;
+
+}
+
+.education-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #D4A373;
+    text-transform: uppercase;
+}
+
+/* Container en flex horizontal */
+.education-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 50px;
+    flex-wrap: wrap;
+
+    /* permet de passer en ligne suivante sur petit écran */
+}
+
+/* Style des cartes */
+.education-card {
+    border: 2px solid #D4A373;
+    border-radius: 15px;
+    padding: 20px 25px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+    opacity: 0.3;
+
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.education-card h3 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.education-year {
+    font-weight: bold;
+    color: #eab375;
+    margin-bottom: 8px;
+}
+
+/* École avec logo */
+.education-school {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-style: italic;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.school-logo {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 3px;
+    border: 1px solid #E0C9A6;
+}
+
+.education-desc {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.5;
+}

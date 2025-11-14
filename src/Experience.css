@@ -1,0 +1,90 @@
+.experience-section {
+    background-color: #FFF9F1;
+    padding: 80px 10%;
+    color: #333;
+}
+
+.experience-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #D4A373;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+/* Liste verticale */
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Élément individuel */
+.experience-item {
+    background-color: #f5eee5;
+    border-left: 5px solid #D4A373;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* En-tête */
+.experience-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.experience-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 40%;
+    background-color: #fff;
+    padding: 3px;
+    border: 1px solid #E0C9A6;
+}
+
+.experience-company {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.experience-role {
+    font-weight: 500;
+    color: #A47A4A;
+}
+
+/* Contenu */
+.experience-description {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.experience-tasks {
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+.experience-tasks li {
+    margin-bottom: 6px;
+    list-style-type: disc;
+}
+
+.experience-tools {
+    margin-top: 10px;
+}
+
+.tools-list {
+    color: #555;
+    font-style: italic;
+    margin-top: 5px;
+    font-weight: bold;
+}
