@@ -46,6 +46,7 @@
 .project-content {
     padding: 20px;
     text-align: left;
+    gap: 10px;
 }
 
 .project-content h3 {

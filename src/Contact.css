@@ -94,7 +94,7 @@
 
 /* --- Animation d’apparition --- */
 .contact-card {
-    opacity: 0;
+    opacity: 0.6;
     transform: translateY(30px);
     animation: fadeUp 0.8s ease forwards;
 }

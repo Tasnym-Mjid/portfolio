@@ -1,6 +1,5 @@
 import "./Projects.css";
 
-
 export default function Projects() {
     return (
         <section id="projects" className="projects-section" >
@@ -42,7 +41,7 @@ export default function Projects() {
                             mes compétences, projets et expériences professionnelles.
                         </p>
                         <p className="project-tech">Outils: React · CSS · Vite</p>
-                        <a href="#" className="project-btn" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Tasnym-Mjid/portfolio" className="project-btn" target="_blank" rel="noreferrer">
                             Voir sur GitHub
                         </a>
                     </div>
