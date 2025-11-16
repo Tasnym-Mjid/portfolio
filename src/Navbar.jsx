@@ -9,7 +9,7 @@ export default function Navbar() {
             <div className="navbar-container">
                 <div className="navbar-profile">
                     <img src={profilePic} alt="Tasnim Mjid" className="profile-img" />
-                    <span className="profile-name">Tasnim Mjid</span>
+                    <span className="profile-name">Tasnim</span>
                 </div>
                 <ul className="nav-links">
                     <a href="#home">Accueil</a>
