@@ -7,6 +7,7 @@ import Experience from "./Experience";
 import Skills from "./Skills";
 import AssociativeLife from "./AssociativeLife";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
@@ -24,11 +25,12 @@ function App() {
       <Home data-aos="fade-up" />
       <About data-aos="fade-up" />
       <Education data-aos="fade-up" />
-      <Projects data-aos="fade-up" />
       <Experience data-aos="fade-up" />
+      <Projects data-aos="fade-up" />
       <Skills data-aos="fade-up" />
       <AssociativeLife data-aos="fade-up" />
       <Contact data-aos="fade-up" />
+      <Footer />
     </div>
   );
 }

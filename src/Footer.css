@@ -1,0 +1,44 @@
+.footer {
+    background: #111;
+    padding: 30px 0;
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+}
+
+.footer-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+    color: #f4b183;
+}
+
+.location-icon {
+    font-size: 1.2rem;
+    color: #f4b183;
+}
+
+.footer-icons {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-icons a {
+    font-size: 1.8rem;
+    color: #f4b183;
+    transition: 0.3s ease;
+}
+
+.footer-icons a:hover {
+    color: #fff;
+    transform: scale(1.15);
+}

@@ -1,8 +1,8 @@
 import "./Projects.css";
-import Portfolio from "./assets/portfolio-bg.jpg";
+import Portfolio from "./assets/portfolio-project.jpg";
 import medApp from "./assets/medecin-app.png";
-import med from "./assets/medical-bg.jpg";
-import restaurant from "./assets/restaurant-bg.jpg";
+import med from "./assets/medical-project.jpg";
+import restaurant from "./assets/restaurant-project.jpg";
 
 
 
@@ -15,17 +15,22 @@ export default function Projects() {
             <div className="projects-container">
 
                 <div className="project-card" data-aos="fade-up">
+                    <img
+                        src={restaurant}
+                        alt="aperçu portfolio"
+                        className="project-image"
+                    />
                     <div className="project-content" >
-                        <img
-                            src={restaurant}
-                            alt="aperçu portfolio"
-                            className="project-image"
-                        />
                         <h3> Platforme de Gestion de Restaurants</h3>
                         <p>
                             Développement d'une application web complète de gestion de restaurants, incluant la gestion des restaurants ,leurs  menus, des commandes en ligne .
                         </p>
-                        <p className="project-tech">Outils: NodeJS · ExpressJS · ReactJS · MongoDB</p>
+                        <div className="project-tech-list">
+                            <span className="tech-badge">NodeJS</span>
+                            <span className="tech-badge">ReactJS</span>
+                            <span className="tech-badge">ExpressJS</span>
+                            <span className="tech-badge">MongoDB</span>
+                        </div>
                         <a href="https://github.com/RaniaDg12/Restaurant" className="project-btn" target="_blank" rel="noreferrer">
                             Voir sur GitHub
                         </a>
@@ -33,17 +38,21 @@ export default function Projects() {
                 </div>
 
                 <div className="project-card" data-aos="fade-up">
+                    <img
+                        src={med}
+                        alt="aperçu portfolio"
+                        className="project-image"
+                    />
                     <div className="project-content">
-                        <img
-                            src={med}
-                            alt="aperçu portfolio"
-                            className="project-image"
-                        />
                         <h3> Projet de fin d'année 2 (PFA2)</h3>
                         <p>
                             Réalisation d'une application mobile permettant aux medecins de gérer les  données des patients et leurs dossiers médical et permettant aux patients de passer des rendez-vous.
                         </p>
-                        <p className="project-tech">Outils: Flutter · Dart · Firebase </p>
+                        <div className="project-tech-list">
+                            <span className="tech-badge">Flutter</span>
+                            <span className="tech-badge">Dart</span>
+                            <span className="tech-badge">Firebase</span>
+                        </div>
                         <div className="project-footer">
                             <a href="https://github.com/Tasnym-Mjid/Flutter" className="project-btn" target="_blank" rel="noreferrer">
                                 Voir sur GitHub
@@ -60,18 +69,22 @@ export default function Projects() {
                 </div>
 
                 <div className="project-card" data-aos="fade-up">
+                    <img
+                        src={Portfolio}
+                        alt="aperçu portfolio"
+                        className="project-image"
+                    />
                     <div className="project-content">
-                        <img
-                            src={Portfolio}
-                            alt="aperçu portfolio"
-                            className="project-image"
-                        />
                         <h3>Site Portfolio Personnel</h3>
                         <p>
                             Développement d’un site web personnel en ReactJS pour présenter
                             mes compétences, projets et expériences professionnelles.
                         </p>
-                        <p className="project-tech">Outils: React · CSS · Vite</p>
+                        <div className="project-tech-list">
+                            <span className="tech-badge">ReactJS</span>
+                            <span className="tech-badge">CSS</span>
+                            <span className="tech-badge">Vite</span>
+                        </div>
                         <a href="https://github.com/Tasnym-Mjid/portfolio" className="project-btn" target="_blank" rel="noreferrer">
                             Voir sur GitHub
                         </a>

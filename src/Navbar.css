@@ -3,32 +3,41 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: wheat;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(241, 214, 140, 0.937);
     z-index: 100;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .navbar-container {
     max-width: 1450px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* 🟡 Logo */
-.navbar-logo img {
-    width: 120px;
-    height: 80px;
-    object-fit: cover;
-    background-color: #fff;
-    padding: 3px;
+.navbar-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.navbar-logo img:hover {
-    transform: scale(1.05);
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: #333;
 }
 
 .nav-links {

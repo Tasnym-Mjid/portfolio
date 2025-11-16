@@ -4,13 +4,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* beige clair */
     text-align: center;
     padding: 0 200px;
-    background-color: #efe2d0;
-    background: linear-gradient(rgba(0, 0, 0, 0.1),
-            rgba(0, 0, 0, 0.3)),
+    background: linear-gradient(rgba(240, 210, 121, 0.522),
+            rgba(223, 214, 214, 0.3)),
         url("./assets/portfolio-bg.jpg") center/cover no-repeat;
+    background-attachment: scroll;
 }
 
 .home-title-container {
@@ -85,7 +84,7 @@
 .home-photo-inline {
     width: 380px;
     height: 390px;
-    border-radius: 30%;
+    border-radius: 50%;
     border: 2px solid rgb(228, 221, 221);
     object-fit: cover;
 }

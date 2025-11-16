@@ -15,17 +15,29 @@
     inset: 0;
     backdrop-filter: blur(8px);
     z-index: 0;
+    background: linear-gradient(rgba(215, 202, 158, 0.55), rgba(189, 188, 166, 0.55));
+
 }
 
 .section-title {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #fff;
+    color: whitesmoke;
     margin-bottom: 60px;
     position: relative;
     z-index: 1;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.section-title::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background: whitesmoke;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
 }
 
 /* Conteneur principal */

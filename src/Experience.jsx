@@ -6,12 +6,12 @@ import TacTicLogo from "./assets/TAC-TIC.png";
 
 export default function Experience() {
     return (
-        <section id="experience" className="experience-section" data-aos="fade-up">
+        <section id="experience" className="experience-section">
             <h2 className="experience-title">Expériences Professionnelles</h2>
 
             <div className="experience-list">
 
-                <div className="experience-item">
+                <div className="experience-item" data-aos="fade-up">
                     <div className="experience-header">
                         <img src={sofrecomLogo} alt="Sofrecom Tunisie" className="experience-logo" />
                         <div>
@@ -33,12 +33,23 @@ export default function Experience() {
                     </ul>
                     <div className="experience-tools">
                         <p className="tools-title">Outils utilisés :</p>
-                        <p className="tools-list">ReactJS · FastAPI · Python · Ansible · GitLab CI/CD · Prometheus · Machine Learning · LLM · Docker · Docker-compose</p>
+                        <div className="tools-badges">
+                            <span className="tool-badge">ReactJS</span>
+                            <span className="tool-badge">FastAPI</span>
+                            <span className="tool-badge">Python</span>
+                            <span className="tool-badge">Ansible</span>
+                            <span className="tool-badge">GitLab CI/CD</span>
+                            <span className="tool-badge">Prometheus</span>
+                            <span className="tool-badge">Machine Learning</span>
+                            <span className="tool-badge">LLM</span>
+                            <span className="tool-badge">Docker</span>
+                            <span className="tool-badge">Docker-compose</span>
+                        </div>
                     </div>
 
                 </div>
 
-                <div className="experience-item">
+                <div className="experience-item" data-aos="fade-up">
                     <div className="experience-header">
                         <img src={discoveryLogo} alt="Discovery" className="experience-logo" />
                         <div>
@@ -54,10 +65,13 @@ export default function Experience() {
                     </ul>
                     <div className="experience-tools">
                         <p className="tools-title">Outils utilisés :</p>
-                        <p className="tools-list">OCR ·  Microsoft Dynamics 365 Business Central</p>
+                        <div className="tools-badges">
+                            <span className="tool-badge">OCR</span>
+                            <span className="tool-badge">Microsoft Dynamics  365 Business Central</span>
+                        </div>
                     </div>
                 </div>
-                <div className="experience-item">
+                <div className="experience-item" data-aos="fade-up">
                     <div className="experience-header">
                         <img src={TacTicLogo} alt="Discovery" className="experience-logo" />
                         <div>
@@ -73,7 +87,9 @@ export default function Experience() {
                     </ul>
                     <div className="experience-tools">
                         <p className="tools-title">Outils utilisés :</p>
-                        <p className="tools-list">PROTEUS </p>
+                        <div className="tools-badges">
+                            <span className="tool-badge">PROTEUS</span>
+                        </div>
                     </div>
                 </div>
 
