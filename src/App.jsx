@@ -8,6 +8,7 @@ import Skills from "./Skills";
 import AssociativeLife from "./AssociativeLife";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import "./responsive.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
@@ -22,7 +23,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Home data-aos="fade-up" />
+      <Home />
       <About data-aos="fade-up" />
       <Education data-aos="fade-up" />
       <Experience data-aos="fade-up" />

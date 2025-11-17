@@ -61,7 +61,7 @@
 }
 
 .btn-primary:hover {
-    background-color: #6b7280;
+    background-color: #dab97e;
     color: white;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .btn-secondary:hover {
-    background-color: #6b7280;
+    background-color: #dab97e;
     color: white;
 }
 
@@ -102,7 +102,7 @@
 }
 
 .btn-tertiary:hover {
-    background: #6b7280;
+    background: #dab97e;
     color: white;
 }
 

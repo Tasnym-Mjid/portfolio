@@ -146,4 +146,10 @@
     .contact-card {
         width: 90%;
     }
+
+    .contact-cards {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
 }

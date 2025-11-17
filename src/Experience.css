@@ -129,3 +129,23 @@
     transform: translateY(-3px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
+
+@media (max-width: 768px) {
+    .experience-item {
+        padding: 20px;
+    }
+
+    .experience-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .experience-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tools-badges {
+        justify-content: center;
+    }
+}

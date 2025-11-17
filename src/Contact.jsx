@@ -29,7 +29,7 @@ export default function Contact() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        tasnim-mjid
+                        Tasnim Mjid
                     </a>
                 </div>
 
